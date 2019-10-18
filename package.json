@@ -1,7 +1,7 @@
 {
   "name": "testing-template-repo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Run `npm i` and `npm test`, and follow the directions therein!",
   "main": "index.js",
   "scripts": {
     "test": "jest --watch-all"
@@ -11,5 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.9.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstrikesbak/array-of-radioactive-mutants.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kstrikesbak/array-of-radioactive-mutants/issues"
+  },
+  "homepage": "https://github.com/kstrikesbak/array-of-radioactive-mutants#readme"
 }
