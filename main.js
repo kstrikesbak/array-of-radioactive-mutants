@@ -24,7 +24,7 @@ function changeAllValuesTo(arr,value) {
   let i=0
   while (i< arr.length) {
   arr[i]= value;
-  i=i+1
+  i++
   }
 }
 changeAllValuesTo(arr1,15)
@@ -39,14 +39,23 @@ function oddOrEven(arr) {
       arr[i] = 'odd'
     }
   
-  i=i+1
+  i++
   }
 }
 oddOrEven(arr1);
+oddOrEven(arr2);
 
-function changeNextThreeToValue() {
-
+function changeNextThreeToValue(a,arr,b) {
+  let i=a;
+  while (i<a+3) {
+    arr[i] = b
+    i++
+  }
 }
+
+
+changeNextThreeToValue(2,arr1,15)
+changeNextThreeToValue(1,arr2,15)
 
 module.exports = {
   changeLast,
