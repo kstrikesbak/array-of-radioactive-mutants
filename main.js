@@ -30,9 +30,19 @@ function changeAllValuesTo(arr,value) {
 changeAllValuesTo(arr1,15)
 changeAllValuesTo(arr2,30)
 
-function oddOrEven() {
-
+function oddOrEven(arr) {
+  let i=0
+  while (i< arr.length) {
+    if (arr[i] % 2 === 0) {
+      arr[i] = 'even'
+    } else {
+      arr[i] = 'odd'
+    }
+  
+  i=i+1
+  }
 }
+oddOrEven(arr1);
 
 function changeNextThreeToValue() {
 
