@@ -24,6 +24,7 @@ function changeAllValuesTo(arr,value) {
   let i=0
   while (i< arr.length) {
   arr[i]= value;
+  i=i+1
   }
 }
 changeAllValuesTo(arr1,15)
